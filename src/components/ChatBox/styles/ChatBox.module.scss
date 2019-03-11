@@ -1,0 +1,31 @@
+.chatBox {
+  width: 640px;
+  max-height: 600px;
+  overflow-y: auto;
+  height: 640px;
+}
+.chatItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.chatContent {
+  font-size: 16px;
+  color: #777;
+  background-color: #dedede;
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin: 10px;
+  width: fit-content;
+}
+
+.mychatItem {
+  display: flex;
+  justify-content: flex-end;
+  .chatContent {
+    @extend .chatContent;
+    background-color: #f4c04e;
+  }
+}

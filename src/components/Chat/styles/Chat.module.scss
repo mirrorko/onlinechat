@@ -1,0 +1,15 @@
+.Chat {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.chatApp {
+  border: #dddddd 1px solid;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -8px rgba(135, 135, 135, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}

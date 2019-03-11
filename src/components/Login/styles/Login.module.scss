@@ -1,0 +1,38 @@
+.LoginBox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 40px;
+}
+.Login {
+  width: 640px;
+  max-height: 600px;
+  overflow-y: auto;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: #dadce0 1px solid;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  > * {
+    margin: 10px 0px;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+    color: black;
+  }
+  .description {
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    color: black;
+  }
+}
