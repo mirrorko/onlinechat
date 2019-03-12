@@ -36,22 +36,6 @@ describe('Facebook login', () => {
     await popup.click('#buttons input[name="login"]')
   })
 
-  // it('should  ', async () => {
-  //   await page.waitFor(2000)
-  //   await page.type('input[name="inputchat"]', 'aaa')
-
-  // })
-
-  // it.skip('type email', async () => {
-  //   page.on('dialog', async (dialog: any) => {
-  //     await dialog.type('#email', 'ajsdfjtkdt_1551696321@tfbnw.net')
-
-  //     await dialog.type('[name="pass"]', 'qweaaa123456789')
-
-  //     await dialog.accept('#buttons')
-  //   })
-  // })
-
   afterAll(async () => {
     // await page.close()
   })
